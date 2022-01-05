@@ -69,8 +69,6 @@ Route::group(['middleware' => 'auth'], function () {
 
 });//ユーザー認証ここまで
 
-
-
 Route::get('login/{provider}', [LoginController::class, 'redirectToProvider']);
 
 Route::get('login/{provider}/callback', [LoginController::class, 'handleProviderCallback']);

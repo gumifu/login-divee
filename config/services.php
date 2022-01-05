@@ -34,7 +34,7 @@ return [
         'client_id' => env('GOOGLE_CLIENT_ID'),
         'client_secret' => env('GOOGLE_CLIENT_SECRET'),
         // 'redirect' => env('GOOGLE_CALLBACK_URL'),
-        'redirect' => 'http://localhost:8888/login/google/callback',
+        'redirect' => '/login/google/callback',
     ],
     'github' => [
         'client_id' => env('GITHUB_CLIENT_ID'),
